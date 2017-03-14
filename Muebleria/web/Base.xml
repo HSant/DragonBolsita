@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tabla>
+  	<Administrador user="Admin" nombre="Administrador" password="123456" email="admin@gmail.com" />
+  	
+	<Cliente user="ALEXO" nombre="Alejandro RuPe" password="123" email="alejandr0@gmail.com" /><Cliente user="ALEX5" nombre="Alejandro RuPe" password="123" email="alejandr0@gmail.com" /><Cliente user="HumberT" nombre="Humberto Santana" password="456" email="hsantana@hotmail.com" /></Tabla>

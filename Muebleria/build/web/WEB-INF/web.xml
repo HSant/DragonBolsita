@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>SEntrar</servlet-name>
+        <servlet-class>paquete.SEntrar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SRegistra</servlet-name>
+        <servlet-class>paquete.SRegistra</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SElimina</servlet-name>
+        <servlet-class>paquete.SElimina</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SActualiza</servlet-name>
+        <servlet-class>paquete.SActualiza</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SEntrar</servlet-name>
+        <url-pattern>/SEntrar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SRegistra</servlet-name>
+        <url-pattern>/SRegistra</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SElimina</servlet-name>
+        <url-pattern>/SElimina</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SActualiza</servlet-name>
+        <url-pattern>/SActualiza</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

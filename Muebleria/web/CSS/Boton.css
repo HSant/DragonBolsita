@@ -1,0 +1,32 @@
+.button{
+	background:#1161ee;
+	opacity: 0.8;
+	width: 200px;
+	color:#fff;
+	display:block;
+	text-transform:uppercase;
+	display:block;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	position: relative;
+	left:300px;
+	top:10px;
+}
+.cajaAdmin{
+	width:100%;
+	left: 18%;
+	max-width:500px;
+	min-height:100%;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.contentAdmin{
+	width:800px;
+	height:500px;
+	position:relative;
+	padding:90px 70px 50px 70px;
+	background:#141414;
+	opacity: 0.9;
+}
+
